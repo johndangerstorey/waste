@@ -30,7 +30,7 @@ var secretutils = require('secret-utils');
 var UUID = require('node-uuid');
   //, PromiseA = require('bluebird').PromiseA
 
-module.exports.create = function (app, passport, config, DB, Auth) {
+module.exports.create = function (passport, config, DB, Auth) {
   var server
       // in-memory only
     , TxTok

@@ -9,7 +9,7 @@ var BasicStrategy = require('passport-http').BasicStrategy
   , oauth2 = require('./oauth2orize-logic')
   ;
 
-module.exports.create = function (app, passport, config, DB, Auth) {
+module.exports.create = function (passport, config, DB, Auth) {
   /**
    * BasicStrategy & ClientPasswordStrategy
    *
@@ -84,6 +84,6 @@ module.exports.create = function (app, passport, config, DB, Auth) {
   );
 
   return {
-    route: oauth2.create(app, passport, config, DB, Auth)
+    route: oauth2.create(passport, config, DB, Auth)
   };
 };

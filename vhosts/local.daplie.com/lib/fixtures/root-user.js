@@ -1,8 +1,7 @@
 'use strict';
 
 module.exports.create = function (ru, Auth) {
-  var loginObj
-    ;
+  var loginObj;
 
   loginObj = {
     type: 'local'
