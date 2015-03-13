@@ -136,6 +136,7 @@ module.exports.create = function () {
   // Generic Template API
   //
   app
+    .use('/styles', require('express-less')(__dirname + '/public/styles'))
     .use(require('connect-query')())
     .use(require('body-parser').json({
       strict: true // only objects and arrays

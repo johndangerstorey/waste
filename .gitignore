@@ -1,5 +1,7 @@
+redirects.json
+
 .*.sw*
-migrations/migrations.js
+migrations.js
 
 dist
 .tmp

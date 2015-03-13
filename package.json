@@ -23,6 +23,7 @@
     "escape-string-regexp": "^1.0.1",
     "express": "^4.12.2",
     "express-lazy": "^1.0.2",
+    "express-less": "0.0.6",
     "express-session": "^1.6.5",
     "foreachasync": "~5.0.0",
     "human-readable-ids": "^1.0.1",
