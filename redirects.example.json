@@ -1,0 +1,17 @@
+[
+  { "from": { "hostname": "www.local.daplie.com" , "path": "" }
+  , "to": { "hostname": "local.daplie.com", "path": "" }
+  }
+, { "from": { "hostname": "www.local.ldsconnect.org" , "path": "" }
+  , "to": { "hostname": "local.ldsconnect.org", "path": "" }
+  }
+, { "from": { "hostname": "www.local.foobar3000.com" , "path": "" }
+  , "to": { "hostname": "local.foobar3000.com", "path": "" }
+  }
+, { "from": { "hostname": "www.local.helloworld3000.com" , "path": "" }
+  , "to": { "hostname": "local.helloworld3000.com", "path": "" }
+  }
+, { "from": { "hostname": "www.local.hellabit.com" , "path": "" }
+  , "to": { "hostname": "local.hellabit.com", "path": "" }
+  }
+]
